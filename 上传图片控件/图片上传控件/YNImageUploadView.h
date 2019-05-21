@@ -61,6 +61,8 @@ typedef NS_ENUM(NSInteger, YNImageUploadImageType) {
 @property (nonatomic, strong, readonly) NSArray <NSString *>*imageNames;
 /** 返回所有图片名称的拼接字符串 */
 @property (nonatomic, strong, readonly) NSString *imageNameString;
+/** 是否完成所有的任务 */
+@property (nonatomic, assign, readonly, getter=isFinish) BOOL finish;
 /** 视图的高度 */
 @property (nonatomic, assign) CGFloat viewH;
 @end

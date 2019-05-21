@@ -169,8 +169,8 @@
         // 不是最后一个，并且需要上传图片
         if (!model.isLast && self.isNeedUpload) {
             // 检查上传Url参数配置
-            if (self.uploadUrl == nil || self.uploadUrl.length == 0) {
-                NSLog(@"请配置上传Url");
+            if (self.uploadUrl == nil || self.uploadUrl.length == 0 || ![self.uploadUrl containsString:@"http"]) {
+                NSLog(@"请配置有效的上传Url");
                 return;
             }
             // 判断上传状态

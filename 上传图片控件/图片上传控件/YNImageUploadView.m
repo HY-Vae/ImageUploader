@@ -373,6 +373,15 @@
     return _dataList;
 }
 
+- (BOOL)isFinish {
+    for (YNImageModel *model in self.dataList) {
+        if (model.state != YNImageUploadStateFinish) {
+            return NO;
+        }
+    }
+    return YES;
+}
+
 - (NSMutableArray *)cellInfos {
     if (!_cellInfos) {
         _cellInfos = @[].mutableCopy;

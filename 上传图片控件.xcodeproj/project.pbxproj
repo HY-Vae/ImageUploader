@@ -398,12 +398,10 @@
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/TZImagePickerController\"",
-					"\"${PODS_ROOT}/Realm/core\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jiayaning.------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayaning.imageUploader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -437,12 +435,10 @@
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/TZImagePickerController\"",
-					"\"${PODS_ROOT}/Realm/core\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jiayaning.------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayaning.imageUploader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
